@@ -1,0 +1,112 @@
+{ "skeleton": { "images": "images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "Leg_back_right", "bone": "root", "attachment": "Leg_back_right" },
+	{ "name": "Leg_front_right", "bone": "root", "attachment": "Leg_front_right" },
+	{ "name": "Jaw_inside", "bone": "root", "attachment": "Jaw_inside" },
+	{ "name": "Jaw", "bone": "root", "attachment": "Jaw" },
+	{ "name": "Body", "bone": "root", "attachment": "Body" },
+	{ "name": "Eye_18", "bone": "root", "attachment": "Eye_18" },
+	{ "name": "Eye_17", "bone": "root", "attachment": "Eye_17" },
+	{ "name": "Eye_16", "bone": "root", "attachment": "Eye_16" },
+	{ "name": "Eye_15", "bone": "root", "attachment": "Eye_15" },
+	{ "name": "Eye_14", "bone": "root", "attachment": "Eye_14" },
+	{ "name": "Eye_13", "bone": "root", "attachment": "Eye_13" },
+	{ "name": "Eye_12", "bone": "root", "attachment": "Eye_12" },
+	{ "name": "Eye_11", "bone": "root", "attachment": "Eye_11" },
+	{ "name": "Eye_10", "bone": "root", "attachment": "Eye_10" },
+	{ "name": "Eye_09", "bone": "root", "attachment": "Eye_09" },
+	{ "name": "Eye_08", "bone": "root", "attachment": "Eye_08" },
+	{ "name": "Eye_07", "bone": "root", "attachment": "Eye_07" },
+	{ "name": "Eye_06", "bone": "root", "attachment": "Eye_06" },
+	{ "name": "Eye_05", "bone": "root", "attachment": "Eye_05" },
+	{ "name": "Eye_04", "bone": "root", "attachment": "Eye_04" },
+	{ "name": "Eye_03", "bone": "root", "attachment": "Eye_03" },
+	{ "name": "Eye_02", "bone": "root", "attachment": "Eye_02" },
+	{ "name": "Eye_01", "bone": "root", "attachment": "Eye_01" },
+	{ "name": "Leg_back_left", "bone": "root", "attachment": "Leg_back_left" },
+	{ "name": "Leg_front_left", "bone": "root", "attachment": "Leg_front_left" }
+],
+"skins": {
+	"default": {
+		"Leg_back_right": {
+			"Leg_back_right": { "x": 2837, "y": -2584, "width": 624, "height": 1696 }
+		},
+		"Leg_front_right": {
+			"Leg_front_right": { "x": 980.5, "y": -2448.5, "width": 1963, "height": 1763 }
+		},
+		"Jaw_inside": {
+			"Jaw_inside": { "x": 1062.5, "y": -2097.5, "width": 403, "height": 303 }
+		},
+		"Jaw": {
+			"Jaw": { "x": 1115.5, "y": -2109.5, "width": 489, "height": 361 }
+		},
+		"Body": {
+			"Body": { "x": 2059.5, "y": -1210, "width": 3863, "height": 2422 }
+		},
+		"Eye_18": {
+			"Eye_18": { "x": 919.5, "y": -414, "width": 161, "height": 158 }
+		},
+		"Eye_17": {
+			"Eye_17": { "x": 692.5, "y": -747, "width": 183, "height": 184 }
+		},
+		"Eye_16": {
+			"Eye_16": { "x": 673.5, "y": -920.5, "width": 197, "height": 171 }
+		},
+		"Eye_15": {
+			"Eye_15": { "x": 229, "y": -1095, "width": 138, "height": 144 }
+		},
+		"Eye_14": {
+			"Eye_14": { "x": 542, "y": -1126, "width": 294, "height": 286 }
+		},
+		"Eye_13": {
+			"Eye_13": { "x": 195, "y": -1271, "width": 158, "height": 200 }
+		},
+		"Eye_12": {
+			"Eye_12": { "x": 277.5, "y": -1399.5, "width": 141, "height": 139 }
+		},
+		"Eye_11": {
+			"Eye_11": { "x": 449, "y": -1455, "width": 224, "height": 218 }
+		},
+		"Eye_10": {
+			"Eye_10": { "x": 301.5, "y": -1593.5, "width": 179, "height": 199 }
+		},
+		"Eye_09": {
+			"Eye_09": { "x": 398.5, "y": -1737, "width": 95, "height": 116 }
+		},
+		"Eye_08": {
+			"Eye_08": { "x": 544, "y": -1887.5, "width": 240, "height": 255 }
+		},
+		"Eye_07": {
+			"Eye_07": { "x": 666.5, "y": -1657.5, "width": 255, "height": 247 }
+		},
+		"Eye_06": {
+			"Eye_06": { "x": 854, "y": -1839, "width": 180, "height": 174 }
+		},
+		"Eye_05": {
+			"Eye_05": { "x": 1085.5, "y": -1698.5, "width": 301, "height": 283 }
+		},
+		"Eye_04": {
+			"Eye_04": { "x": 1501.5, "y": -1278.5, "width": 363, "height": 359 }
+		},
+		"Eye_03": {
+			"Eye_03": { "x": 973, "y": -1286.5, "width": 502, "height": 511 }
+		},
+		"Eye_02": {
+			"Eye_02": { "x": 1218.5, "y": -691.5, "width": 297, "height": 267 }
+		},
+		"Eye_01": {
+			"Eye_01": { "x": 1522.5, "y": -791, "width": 241, "height": 238 }
+		},
+		"Leg_back_left": {
+			"Leg_back_left": { "x": 3081.5, "y": -2645, "width": 617, "height": 1690 }
+		},
+		"Leg_front_left": {
+			"Leg_front_left": { "x": 1194, "y": -2630, "width": 1898, "height": 1926 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

@@ -1,0 +1,2752 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - Booster
+    - CameraHelper
+    - ContactDamage
+    - DataManager
+    - Energy
+    - EnergyBar
+    - FPSDisplay
+    - GameOverScript
+    - HitSparkManager
+    - Jitter
+    - PlayerSpawnPoint
+    - ReadyMessage
+    - RexEngine.AbilityAction
+    - RexEngine.AbilityToggleButton
+    - RexEngine.Attack
+    - RexEngine.AttackAction
+    - RexEngine.AttackSet
+    - RexEngine.AudioAction
+    - RexEngine.BounceState
+    - RexEngine.BreakBottomBlock
+    - RexEngine.BreakingPlatform
+    - RexEngine.CallFunctionAction
+    - RexEngine.ChangeAIRoutineAction
+    - RexEngine.ChangeMovementAction
+    - RexEngine.ChangePhysicsAction
+    - RexEngine.ChargeAttack
+    - RexEngine.Checkpoint
+    - RexEngine.CircularMovingPlatform
+    - RexEngine.ComboChain
+    - RexEngine.ConveyorBelt
+    - RexEngine.CrouchState
+    - RexEngine.DamageNumber
+    - RexEngine.DamageNumberManager
+    - RexEngine.DamagedEvent
+    - RexEngine.DashState
+    - RexEngine.DemoEnemy
+    - RexEngine.DestroyEnemiesPowerup
+    - RexEngine.DialogueManager
+    - RexEngine.DialoguePopup
+    - RexEngine.DistanceBranch
+    - RexEngine.DistanceEvent
+    - RexEngine.Door
+    - RexEngine.DropSpawner
+    - RexEngine.ElseBranch
+    - RexEngine.EnableAttackPowerup
+    - RexEngine.Enemy
+    - RexEngine.EnemySpawner
+    - RexEngine.EnergyAction
+    - RexEngine.FaceDirectionAction
+    - RexEngine.FaceTargetAction
+    - RexEngine.FallingPlatform
+    - RexEngine.FollowTargetMovement
+    - RexEngine.GameManager
+    - RexEngine.GravityChanger
+    - RexEngine.GroundPoundState
+    - RexEngine.HPBranch
+    - RexEngine.HPPowerup
+    - RexEngine.Ice
+    - RexEngine.InvincibilityPowerup
+    - RexEngine.JumpState
+    - RexEngine.KnockbackState
+    - RexEngine.Ladder
+    - RexEngine.LadderState
+    - RexEngine.LandingState
+    - RexEngine.LevelManager
+    - RexEngine.LivesManager
+    - RexEngine.LivesPowerup
+    - RexEngine.MovingPlatform
+    - RexEngine.MovingState
+    - RexEngine.NPC
+    - RexEngine.NewAbilityButton
+    - RexEngine.ObjectDisabler
+    - RexEngine.ObjectDisablerManager
+    - RexEngine.PatrolMovement
+    - RexEngine.PauseManager
+    - RexEngine.PhysicsBranch
+    - RexEngine.PhysicsEvent
+    - RexEngine.PhysicsManager
+    - RexEngine.PlayAnimationAction
+    - RexEngine.ProjectSettingsAsset
+    - RexEngine.Projectile
+    - RexEngine.PushableBlock
+    - RexEngine.PushingState
+    - RexEngine.RandomBranch
+    - RexEngine.Reflector
+    - RexEngine.RexAIActionConditionalSet
+    - RexEngine.RexAIActionEventSet
+    - RexEngine.RexAIRoutine
+    - RexEngine.RexAISequence
+    - RexEngine.RexActor
+    - RexEngine.RexButton
+    - RexEngine.RexCamera
+    - RexEngine.RexCameraSettings
+    - RexEngine.RexController
+    - RexEngine.RexInput
+    - RexEngine.RexPhysics
+    - RexEngine.RexSceneManager
+    - RexEngine.RexSettingsData
+    - RexEngine.RexTouchInput
+    - RexEngine.RexTouchInputManager
+    - RexEngine.SceneBoundary
+    - RexEngine.SceneLoader
+    - RexEngine.ScoreManager
+    - RexEngine.ScorePowerup
+    - RexEngine.ScreenShake
+    - RexEngine.Setup
+    - RexEngine.Shield
+    - RexEngine.ShieldPowerup
+    - RexEngine.Spring
+    - RexEngine.Stairs
+    - RexEngine.StopwatchPowerup
+    - RexEngine.SwapPlayer
+    - RexEngine.SwitchButton
+    - RexEngine.SystemAction
+    - RexEngine.TargetFacingEvent
+    - RexEngine.TextBox
+    - RexEngine.TimerEvent
+    - RexEngine.TimerManager
+    - RexEngine.TitleScript
+    - RexEngine.ToggleEventAction
+    - RexEngine.ToggleInvincibilityAction
+    - RexEngine.ToggleSequenceAction
+    - RexEngine.UIManager
+    - RexEngine.UnityInputManager
+    - RexEngine.WaitAction
+    - RexEngine.WaitMovement
+    - RexEngine.WallClingState
+    - RexEngine.WaypointsMovement
+    - RexEngine.WeaponEnergyPowerup
+    - RexEngine.WorldActionSequenceSet
+    - RexParticle
+    - RexPool
+    - RexSoundManager
+    - RexUIAnchor
+    - ScreenFade
+    Bolt.Core.Runtime.dll:
+    - Bolt.VariablesAsset
+    Ludiq.Core.Runtime.dll:
+    - Ludiq.DictionaryAsset
+    Unity.2D.Tilemap.Editor.dll:
+    - UnityEditor.Tilemaps.GridPaintingState
+    - UnityEditor.Tilemaps.GridPaletteBrushes
+    - UnityEditor.Tilemaps.GridPalettes
+    - UnityEditor.Tilemaps.SceneViewGridManager
+    - UnityEditor.Tilemaps.TileDragAndDropManager
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+  sceneClasses:
+    Assets/Scenes/Boss1.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 70
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 712}
+    - Class: 114
+      Script: {instanceID: 11344}
+    - Class: 114
+      Script: {instanceID: 11374}
+    - Class: 114
+      Script: {instanceID: 11420}
+    - Class: 114
+      Script: {instanceID: 11478}
+    - Class: 114
+      Script: {instanceID: 11700}
+    - Class: 114
+      Script: {instanceID: 11834}
+    - Class: 114
+      Script: {instanceID: 11914}
+    - Class: 114
+      Script: {instanceID: 12012}
+    - Class: 114
+      Script: {instanceID: 12110}
+    - Class: 114
+      Script: {instanceID: 12140}
+    - Class: 114
+      Script: {instanceID: 12242}
+    - Class: 114
+      Script: {instanceID: 12264}
+    - Class: 114
+      Script: {instanceID: 12298}
+    - Class: 114
+      Script: {instanceID: 12352}
+    - Class: 114
+      Script: {instanceID: 12420}
+    - Class: 114
+      Script: {instanceID: 12510}
+    - Class: 114
+      Script: {instanceID: 12530}
+    - Class: 114
+      Script: {instanceID: 12534}
+    - Class: 114
+      Script: {instanceID: 12540}
+    - Class: 114
+      Script: {instanceID: 12586}
+    - Class: 114
+      Script: {instanceID: 12598}
+    - Class: 114
+      Script: {instanceID: 12722}
+    - Class: 114
+      Script: {instanceID: 12754}
+    - Class: 114
+      Script: {instanceID: 12774}
+    - Class: 114
+      Script: {instanceID: 12974}
+    - Class: 114
+      Script: {instanceID: 12978}
+    - Class: 114
+      Script: {instanceID: 13086}
+    - Class: 114
+      Script: {instanceID: 13114}
+    - Class: 114
+      Script: {instanceID: 13160}
+    - Class: 114
+      Script: {instanceID: 13460}
+    - Class: 114
+      Script: {instanceID: 13490}
+    - Class: 114
+      Script: {instanceID: 13668}
+    - Class: 114
+      Script: {instanceID: 13678}
+    - Class: 114
+      Script: {instanceID: 13710}
+    - Class: 114
+      Script: {instanceID: 13712}
+    - Class: 114
+      Script: {instanceID: 13792}
+    - Class: 114
+      Script: {instanceID: 13836}
+    - Class: 114
+      Script: {instanceID: 13838}
+    - Class: 114
+      Script: {instanceID: 13958}
+    - Class: 114
+      Script: {instanceID: 14000}
+    - Class: 114
+      Script: {instanceID: 14060}
+    - Class: 114
+      Script: {instanceID: 14068}
+    - Class: 114
+      Script: {instanceID: 14070}
+    - Class: 114
+      Script: {instanceID: 14132}
+    - Class: 114
+      Script: {instanceID: 14140}
+    - Class: 114
+      Script: {instanceID: 14158}
+    - Class: 114
+      Script: {instanceID: 14176}
+    - Class: 114
+      Script: {instanceID: 14212}
+    - Class: 114
+      Script: {instanceID: 14214}
+    - Class: 114
+      Script: {instanceID: 14264}
+    - Class: 114
+      Script: {instanceID: 14280}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 19719996
+      Script: {instanceID: 0}
+    - Class: 156049354
+      Script: {instanceID: 0}
+    - Class: 483693784
+      Script: {instanceID: 0}
+    - Class: 1839735485
+      Script: {instanceID: 0}
+    Assets/Scenes/Trial.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 60
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 68
+      Script: {instanceID: 0}
+    - Class: 70
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 102
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 712}
+    - Class: 114
+      Script: {instanceID: 11298}
+    - Class: 114
+      Script: {instanceID: 11344}
+    - Class: 114
+      Script: {instanceID: 11348}
+    - Class: 114
+      Script: {instanceID: 11374}
+    - Class: 114
+      Script: {instanceID: 11376}
+    - Class: 114
+      Script: {instanceID: 11392}
+    - Class: 114
+      Script: {instanceID: 11396}
+    - Class: 114
+      Script: {instanceID: 11420}
+    - Class: 114
+      Script: {instanceID: 11424}
+    - Class: 114
+      Script: {instanceID: 11426}
+    - Class: 114
+      Script: {instanceID: 11430}
+    - Class: 114
+      Script: {instanceID: 11432}
+    - Class: 114
+      Script: {instanceID: 11450}
+    - Class: 114
+      Script: {instanceID: 11472}
+    - Class: 114
+      Script: {instanceID: 11478}
+    - Class: 114
+      Script: {instanceID: 11512}
+    - Class: 114
+      Script: {instanceID: 11592}
+    - Class: 114
+      Script: {instanceID: 11594}
+    - Class: 114
+      Script: {instanceID: 11602}
+    - Class: 114
+      Script: {instanceID: 11632}
+    - Class: 114
+      Script: {instanceID: 11700}
+    - Class: 114
+      Script: {instanceID: 11736}
+    - Class: 114
+      Script: {instanceID: 11812}
+    - Class: 114
+      Script: {instanceID: 11834}
+    - Class: 114
+      Script: {instanceID: 11906}
+    - Class: 114
+      Script: {instanceID: 11914}
+    - Class: 114
+      Script: {instanceID: 11946}
+    - Class: 114
+      Script: {instanceID: 11990}
+    - Class: 114
+      Script: {instanceID: 12008}
+    - Class: 114
+      Script: {instanceID: 12012}
+    - Class: 114
+      Script: {instanceID: 12034}
+    - Class: 114
+      Script: {instanceID: 12046}
+    - Class: 114
+      Script: {instanceID: 12060}
+    - Class: 114
+      Script: {instanceID: 12070}
+    - Class: 114
+      Script: {instanceID: 12078}
+    - Class: 114
+      Script: {instanceID: 12108}
+    - Class: 114
+      Script: {instanceID: 12110}
+    - Class: 114
+      Script: {instanceID: 12112}
+    - Class: 114
+      Script: {instanceID: 12118}
+    - Class: 114
+      Script: {instanceID: 12176}
+    - Class: 114
+      Script: {instanceID: 12192}
+    - Class: 114
+      Script: {instanceID: 12218}
+    - Class: 114
+      Script: {instanceID: 12264}
+    - Class: 114
+      Script: {instanceID: 12280}
+    - Class: 114
+      Script: {instanceID: 12298}
+    - Class: 114
+      Script: {instanceID: 12320}
+    - Class: 114
+      Script: {instanceID: 12348}
+    - Class: 114
+      Script: {instanceID: 12352}
+    - Class: 114
+      Script: {instanceID: 12354}
+    - Class: 114
+      Script: {instanceID: 12362}
+    - Class: 114
+      Script: {instanceID: 12386}
+    - Class: 114
+      Script: {instanceID: 12420}
+    - Class: 114
+      Script: {instanceID: 12480}
+    - Class: 114
+      Script: {instanceID: 12502}
+    - Class: 114
+      Script: {instanceID: 12510}
+    - Class: 114
+      Script: {instanceID: 12520}
+    - Class: 114
+      Script: {instanceID: 12530}
+    - Class: 114
+      Script: {instanceID: 12534}
+    - Class: 114
+      Script: {instanceID: 12538}
+    - Class: 114
+      Script: {instanceID: 12540}
+    - Class: 114
+      Script: {instanceID: 12586}
+    - Class: 114
+      Script: {instanceID: 12592}
+    - Class: 114
+      Script: {instanceID: 12598}
+    - Class: 114
+      Script: {instanceID: 12614}
+    - Class: 114
+      Script: {instanceID: 12628}
+    - Class: 114
+      Script: {instanceID: 12634}
+    - Class: 114
+      Script: {instanceID: 12654}
+    - Class: 114
+      Script: {instanceID: 12666}
+    - Class: 114
+      Script: {instanceID: 12678}
+    - Class: 114
+      Script: {instanceID: 12690}
+    - Class: 114
+      Script: {instanceID: 12698}
+    - Class: 114
+      Script: {instanceID: 12722}
+    - Class: 114
+      Script: {instanceID: 12732}
+    - Class: 114
+      Script: {instanceID: 12746}
+    - Class: 114
+      Script: {instanceID: 12754}
+    - Class: 114
+      Script: {instanceID: 12774}
+    - Class: 114
+      Script: {instanceID: 12776}
+    - Class: 114
+      Script: {instanceID: 12806}
+    - Class: 114
+      Script: {instanceID: 12876}
+    - Class: 114
+      Script: {instanceID: 12958}
+    - Class: 114
+      Script: {instanceID: 12974}
+    - Class: 114
+      Script: {instanceID: 13026}
+    - Class: 114
+      Script: {instanceID: 13070}
+    - Class: 114
+      Script: {instanceID: 13086}
+    - Class: 114
+      Script: {instanceID: 13114}
+    - Class: 114
+      Script: {instanceID: 13124}
+    - Class: 114
+      Script: {instanceID: 13160}
+    - Class: 114
+      Script: {instanceID: 13208}
+    - Class: 114
+      Script: {instanceID: 13356}
+    - Class: 114
+      Script: {instanceID: 13416}
+    - Class: 114
+      Script: {instanceID: 13428}
+    - Class: 114
+      Script: {instanceID: 13460}
+    - Class: 114
+      Script: {instanceID: 13486}
+    - Class: 114
+      Script: {instanceID: 13490}
+    - Class: 114
+      Script: {instanceID: 13540}
+    - Class: 114
+      Script: {instanceID: 13630}
+    - Class: 114
+      Script: {instanceID: 13664}
+    - Class: 114
+      Script: {instanceID: 13668}
+    - Class: 114
+      Script: {instanceID: 13678}
+    - Class: 114
+      Script: {instanceID: 13688}
+    - Class: 114
+      Script: {instanceID: 13710}
+    - Class: 114
+      Script: {instanceID: 13712}
+    - Class: 114
+      Script: {instanceID: 13792}
+    - Class: 114
+      Script: {instanceID: 13838}
+    - Class: 114
+      Script: {instanceID: 13850}
+    - Class: 114
+      Script: {instanceID: 13856}
+    - Class: 114
+      Script: {instanceID: 13914}
+    - Class: 114
+      Script: {instanceID: 13918}
+    - Class: 114
+      Script: {instanceID: 13940}
+    - Class: 114
+      Script: {instanceID: 13958}
+    - Class: 114
+      Script: {instanceID: 13960}
+    - Class: 114
+      Script: {instanceID: 13962}
+    - Class: 114
+      Script: {instanceID: 13974}
+    - Class: 114
+      Script: {instanceID: 14000}
+    - Class: 114
+      Script: {instanceID: 14004}
+    - Class: 114
+      Script: {instanceID: 14030}
+    - Class: 114
+      Script: {instanceID: 14058}
+    - Class: 114
+      Script: {instanceID: 14060}
+    - Class: 114
+      Script: {instanceID: 14062}
+    - Class: 114
+      Script: {instanceID: 14068}
+    - Class: 114
+      Script: {instanceID: 14070}
+    - Class: 114
+      Script: {instanceID: 14096}
+    - Class: 114
+      Script: {instanceID: 14128}
+    - Class: 114
+      Script: {instanceID: 14132}
+    - Class: 114
+      Script: {instanceID: 14138}
+    - Class: 114
+      Script: {instanceID: 14140}
+    - Class: 114
+      Script: {instanceID: 14158}
+    - Class: 114
+      Script: {instanceID: 14166}
+    - Class: 114
+      Script: {instanceID: 14174}
+    - Class: 114
+      Script: {instanceID: 14212}
+    - Class: 114
+      Script: {instanceID: 14214}
+    - Class: 114
+      Script: {instanceID: 14264}
+    - Class: 114
+      Script: {instanceID: 14280}
+    - Class: 114
+      Script: {instanceID: 251078}
+    - Class: 114
+      Script: {instanceID: 255384}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 19719996
+      Script: {instanceID: 0}
+    - Class: 156049354
+      Script: {instanceID: 0}
+    - Class: 483693784
+      Script: {instanceID: 0}
+    - Class: 1839735485
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: a1f19ad47d3094e235f21b74dfc423a8
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessLayer
+  - hash:
+      serializedVersion: 2
+      Hash: 90bcaf44df85536863f3b2a7fb76f46a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: TimerEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 4bc4346a71a8df53a6b106f68ef3a190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 23d669c8bf2983ca4a3df160658318a6
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineStateDrivenCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 726fcf7961cbb4108aa5be5e55b8c8bf
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ColorGrading
+  - hash:
+      serializedVersion: 2
+      Hash: b13de7a0a457cb8e026d4237dc1b5797
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: LensDistortion
+  - hash:
+      serializedVersion: 2
+      Hash: 3c08375166df118bd1801438fc36b92f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: ca769031973c32fa6d98a5309c0c79f4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RexParticle
+  - hash:
+      serializedVersion: 2
+      Hash: a7b6d09a97ad473f19dac3fcc7aa93a4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: RexSceneManager
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 626925ef558787b2d85c809198164d19
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 0f3bbcc9fe9a28e6f2d5140d88592a1e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: Door
+  - hash:
+      serializedVersion: 2
+      Hash: 09fe72f05a013b6677601d3b26a16f1f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: ConveyorBelt
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DataManager
+  - hash:
+      serializedVersion: 2
+      Hash: 34c8e2277c2d2a5950046e630398ab1e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: Ladder
+  - hash:
+      serializedVersion: 2
+      Hash: 053a64158d7cbe590f48f86aae32eaf4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: SystemAction
+  - hash:
+      serializedVersion: 2
+      Hash: dc97a7313338892a22dde9e5f200eb72
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: RexButton
+  - hash:
+      serializedVersion: 2
+      Hash: 9624f09298f267fa39971c2ec43209b8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: DemoEnemy
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: RexButtonEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 2e5528edb9683320e0dc6bb04eea00cf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: NewAbilityButton
+  - hash:
+      serializedVersion: 2
+      Hash: 22fd0be31e46ae30ab1089a9b382204f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: ScoreManager
+  - hash:
+      serializedVersion: 2
+      Hash: a2113831d3323f931007e1b3812dc814
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineFollowZoom
+  - hash:
+      serializedVersion: 2
+      Hash: d42931fae2b638513191f0998436c96c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: AbilityAction
+  - hash:
+      serializedVersion: 2
+      Hash: d227987243593b32ae57394d06018643
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineFixedSignal
+  - hash:
+      serializedVersion: 2
+      Hash: 71f7f12b8d0f4fd73590db8bcb6d453c
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Bloom
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: af93f9c42e90877a9ba31e37adfd900c
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: MotionBlur
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: ScreenShake
+  - hash:
+      serializedVersion: 2
+      Hash: dab6295bfc9500f15e8a8481f7255992
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Energy
+  - hash:
+      serializedVersion: 2
+      Hash: e7b583efd12020d0a800c0618ad849f6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: PhysicsMover
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 5697bda889e5f082aa4dc4a08e7757a0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: TargetFacingBranch
+  - hash:
+      serializedVersion: 2
+      Hash: ba457e936b919d0559a168aa4837ad31
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: GameManager
+  - hash:
+      serializedVersion: 2
+      Hash: 759db440a097697d4efcbeefd2316f06
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: SwoopMovement
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 7945549c38a96b4e1ffc22170c6fa782
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: RexAIMovement
+  - hash:
+      serializedVersion: 2
+      Hash: ed85181092d6a9281f5c4470352f96a1
+    assemblyName: Ludiq.Graphs.Editor.dll
+    namespaceName: Ludiq
+    className: GraphInspectorWindow
+  - hash:
+      serializedVersion: 2
+      Hash: ed85181092d6a9281f5c4470352f96a1
+    assemblyName: Ludiq.Graphs.Editor.dll
+    namespaceName: Ludiq
+    className: GraphWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 72712369a7c681ad84fc255a5ec0b333
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 499fd23433e68e265d153aa6b95d0047
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 3a8b345c57736f4b44ccbf98c9400c1c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Demo_3_LevelScript
+  - hash:
+      serializedVersion: 2
+      Hash: 329da568bac7426a8e7aa993be7773fc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: ToggleEventAction
+  - hash:
+      serializedVersion: 2
+      Hash: edef9efcd51210a44af900ccd2674ad5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: TitleScript
+  - hash:
+      serializedVersion: 2
+      Hash: 0c64ab2892c0fb864b534083777ccab2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: DestroyEnemiesPowerup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: c80bc562de10fdbf8b2e9bcb89d80421
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineCollisionImpulseSource
+  - hash:
+      serializedVersion: 2
+      Hash: 8e0313c6f5e2ce35991fec2d64f8eaab
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 0c64ab2892c0fb864b534083777ccab2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: Powerup
+  - hash:
+      serializedVersion: 2
+      Hash: 1d6d6fbe113873f2eef0b1d134696ae9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: WallClingState
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Ludiq.Core.Runtime.dll
+    namespaceName: Ludiq
+    className: CoroutineRunner
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Ludiq.Core.Runtime.dll
+    namespaceName: Ludiq
+    className: DictionaryAsset
+  - hash:
+      serializedVersion: 2
+      Hash: f542c1afca5bb4022f91fdda19b8d622
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: DepthOfField
+  - hash:
+      serializedVersion: 2
+      Hash: 9617c9ff8d2ca7af8db5e25d05ca9a8c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: FacingDirectionBranch
+  - hash:
+      serializedVersion: 2
+      Hash: 234235b9fb07320d11497e08a726cc56
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 3b0ab35614e1544236c86105ff235502
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: BaseJumpState
+  - hash:
+      serializedVersion: 2
+      Hash: e777373762921722988f4336c48bc0a2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: KnockbackState
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 4152dfa9cb76026e30bf2f36e3b94964
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: ToggleAbilityWorldAction
+  - hash:
+      serializedVersion: 2
+      Hash: 6dd3dc11942e98c0a809c81f95fc960c
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineExternalCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: ObjectDisablerManager
+  - hash:
+      serializedVersion: 2
+      Hash: 63d7b9b64a11859f416d72ba9a3c3fec
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ScreenSpaceReflections
+  - hash:
+      serializedVersion: 2
+      Hash: b5eb08b578a2f2d80bb106cbe65ab501
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineStoryboard
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 38bcb4d3f9a1812fd650f92e87a4cf64
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessProfile
+  - hash:
+      serializedVersion: 2
+      Hash: 4495d5c1af3b8693b4685dac7d4af126
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: PauseManager
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: cbae2ed2d2d53cc8f539e7cb4f29bc1f
+    assemblyName: Cinemachine.dll
+    namespaceName: 
+    className: CinemachineCameraOffset
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: ca7499e213dca8828e5bda84d07d9748
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: RexActor
+  - hash:
+      serializedVersion: 2
+      Hash: e82c0521cdfe8cb6a168ef7208a98d4a
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Vignette
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ScreenFlash
+  - hash:
+      serializedVersion: 2
+      Hash: a6d18b6cf5abe6aaa737cbf8a4d980df
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DemoTutorial
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Bolt.Core.Runtime.dll
+    namespaceName: Bolt
+    className: AnimatorMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Bolt.Core.Runtime.dll
+    namespaceName: Bolt
+    className: GlobalMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Bolt.Core.Runtime.dll
+    namespaceName: Bolt
+    className: SceneVariables
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Bolt.Core.Runtime.dll
+    namespaceName: Bolt
+    className: UnityMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Bolt.Core.Runtime.dll
+    namespaceName: Bolt
+    className: Variables
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Bolt.Core.Runtime.dll
+    namespaceName: Bolt
+    className: VariablesAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Bolt.Core.Runtime.dll
+    namespaceName: Bolt
+    className: VariablesSaver
+  - hash:
+      serializedVersion: 2
+      Hash: 3bbc8e718ea53d6615ed1856f82214be
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RexPool
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.2D.PixelPerfect.dll
+    namespaceName: UnityEngine.U2D
+    className: CinemachinePixelPerfect
+  - hash:
+      serializedVersion: 2
+      Hash: cd411392143e75a13e09e058d389e3e6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HitSparkManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 4e9333594897a1fb8b136ad2eae996c7
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 63bdc2cf3273aa9bf650350f19d2af61
+    assemblyName: Unity.2D.PixelPerfect.dll
+    namespaceName: UnityEngine.U2D
+    className: PixelPerfectCamera
+  - hash:
+      serializedVersion: 2
+      Hash: e923777b06e57f9a36444c84ec84892b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: DialogueManager
+  - hash:
+      serializedVersion: 2
+      Hash: e2d95a1b1d3a46f03e00ff88e5abd5ba
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: PhysicsManager
+  - hash:
+      serializedVersion: 2
+      Hash: 9907e1593b5ec5e7da755d6236bcbc94
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: ToggleSequenceAction
+  - hash:
+      serializedVersion: 2
+      Hash: dae2822e80ee89694220c6a3ad228030
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: ProjectSettingsAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 0281b89fc6aff3aa005b77039e9c0bd3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: RexTouchInput
+  - hash:
+      serializedVersion: 2
+      Hash: 1154f81d3803e456149e927c5a7b3542
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: ComboChain
+  - hash:
+      serializedVersion: 2
+      Hash: 666a1bc8d46f314c018ffaaa3f6628d1
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineFreeLook
+  - hash:
+      serializedVersion: 2
+      Hash: da3280d2fc1ee3c90eb9154d27f29bdd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: Ice
+  - hash:
+      serializedVersion: 2
+      Hash: 50f7b44061f91f4cba96fa9f41288e9f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FPSDisplay
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 170412bf01c44614ce991cb96b1deff5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: ChangePhysicsAction
+  - hash:
+      serializedVersion: 2
+      Hash: 1112f70f29c8a4862575bdf675abd0d5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: MovingState
+  - hash:
+      serializedVersion: 2
+      Hash: ea33c131926c20453cbdfd29339afdb7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: ShieldPowerup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 91358d6c2bd58240d301fe4d317f2914
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: RexKeycodeInput
+  - hash:
+      serializedVersion: 2
+      Hash: 7945549c38a96b4e1ffc22170c6fa782
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: WaitMovement
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: d4a493bb4307ddafb51da21aff3cd832
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine.PostFX
+    className: CinemachinePostProcessing
+  - hash:
+      serializedVersion: 2
+      Hash: b8a025422a11c1de812bac762766499a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraAutoscroller
+  - hash:
+      serializedVersion: 2
+      Hash: 8963690ef6f6b05ce03bfd8b5c26e20c
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: NoiseSettings
+  - hash:
+      serializedVersion: 2
+      Hash: bea530a3c20be151a8cba13864a61fff
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: CircularMovingPlatform
+  - hash:
+      serializedVersion: 2
+      Hash: b7fbfdfc6b53289c965963bf31c8dfe4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: SwitchButton
+  - hash:
+      serializedVersion: 2
+      Hash: f000ee4155f5a39fa2529047eccd858b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: ToggleInvincibilityAction
+  - hash:
+      serializedVersion: 2
+      Hash: 7e6ed836cbaa230e56d6a2bbae1b9bb5
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessEffectSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BattleEnums
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 874b57460e953c227aa05796e293338b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: CallFunctionAction
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Cinemachine.dll
+    namespaceName: 
+    className: CinemachineTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 599a1ef8faf261efafe2e2a21dfb4c10
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: DistanceBranch
+  - hash:
+      serializedVersion: 2
+      Hash: b8a5e8091ab0b8861d2add371082c5e0
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BossGate
+  - hash:
+      serializedVersion: 2
+      Hash: 17fc10880a6d6bc95354b0a9645a7a56
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: RexAIRoutine
+  - hash:
+      serializedVersion: 2
+      Hash: 1cdde0c3d8008dfe81d27e4c955d4fe7
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineFramingTransposer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: InspectorHelper
+  - hash:
+      serializedVersion: 2
+      Hash: affeb29dae140005de0d663c235d1ff5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EndingScript
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: bce6ee8d926a4760f7fdbfb4bb0c10aa
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: UnityInputManager
+  - hash:
+      serializedVersion: 2
+      Hash: 8dc90e648ac06f43bdd31ac9fa8f4579
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 04d84f2f046ff7d69c8fa729468772ab
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: EnergyAction
+  - hash:
+      serializedVersion: 2
+      Hash: 588388bced7c64ac3f470115fb10995a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ContactDamage
+  - hash:
+      serializedVersion: 2
+      Hash: 565e67cfb2a36533d6162d1bf45ba34e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: EnableAttackPowerup
+  - hash:
+      serializedVersion: 2
+      Hash: 5316e804791bb1295ce2d84e907f6c4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: Spring
+  - hash:
+      serializedVersion: 2
+      Hash: ef311efff061ba9560ba0f37fb2b5ca7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: TextBox
+  - hash:
+      serializedVersion: 2
+      Hash: 380d3ba99e2d836ad5d66bded133d128
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachinePOV
+  - hash:
+      serializedVersion: 2
+      Hash: 61b9d9b6f4b6a222dfea8b131b3d3227
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ChromaticAberration
+  - hash:
+      serializedVersion: 2
+      Hash: 666348e9d0969e208e139da4082b4c95
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: GlideState
+  - hash:
+      serializedVersion: 2
+      Hash: 07324cc87d642b1ec6df5b423d4972a4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: RexPhysics
+  - hash:
+      serializedVersion: 2
+      Hash: 0662b26602e17131ff626aed064756e0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: RexCameraBase
+  - hash:
+      serializedVersion: 2
+      Hash: 226a135ddb7de741a93b80176a2ae0b5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: LadderState
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ParentHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Bolt.Flow.Runtime.dll
+    namespaceName: Bolt
+    className: FlowMachine
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Bolt.Flow.Runtime.dll
+    namespaceName: Bolt
+    className: FlowMacro
+  - hash:
+      serializedVersion: 2
+      Hash: bbd7d7004ad72936115ad547f510062d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: ScorePowerup
+  - hash:
+      serializedVersion: 2
+      Hash: b3ab2106268377ffe25dd18ac23dca28
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Asset
+  - hash:
+      serializedVersion: 2
+      Hash: 2ce2187bbae6f802011f568630bd3d1f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineOrbitalTransposer
+  - hash:
+      serializedVersion: 2
+      Hash: afb0e8c6ee5bd261b16e54c97df870c6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: LevelManager
+  - hash:
+      serializedVersion: 2
+      Hash: 316f3df9f682cc318c70cb2cc3c38e6f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: Stairs
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RexMath
+  - hash:
+      serializedVersion: 2
+      Hash: f97e16ae3b45d9e97fc853bef2584c5b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: RexController
+  - hash:
+      serializedVersion: 2
+      Hash: 637e9ba2beb6afd773fd1d4c63208a01
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: NPC
+  - hash:
+      serializedVersion: 2
+      Hash: 745fa702a229d37288ead3d5e17cd9bf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: StopwatchPowerup
+  - hash:
+      serializedVersion: 2
+      Hash: 0281b89fc6aff3aa005b77039e9c0bd3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: RexInput
+  - hash:
+      serializedVersion: 2
+      Hash: d4020bafcd3ccbb5601a6e6c8ac78be0
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: RexMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 7ca765ad7969aae95e8011264b9c4046
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineTriggerAction
+  - hash:
+      serializedVersion: 2
+      Hash: be0d6831d1bdea5489054e03a9fe8473
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Demo_6_LevelScript
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: e8771284bfaffcc81cfbc6d7c2e42290
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: ChargeAttack
+  - hash:
+      serializedVersion: 2
+      Hash: e99c0a7b919504bb6aa071c119512e7d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: RexCamera
+  - hash:
+      serializedVersion: 2
+      Hash: bd543bad7f9f6262f10595aadb130d22
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineComposer
+  - hash:
+      serializedVersion: 2
+      Hash: 261d8bd8a2d9e33ca1fdd093a38be135
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: WaitAction
+  - hash:
+      serializedVersion: 2
+      Hash: fec128bbaf6d4016727073a40f2c15e9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: RexCameraSettings
+  - hash:
+      serializedVersion: 2
+      Hash: fb9afa1692c3ac85dadc86b31fef0c49
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: FaceDirectionAction
+  - hash:
+      serializedVersion: 2
+      Hash: 11c9821340196e7ebcceb5afbf599b61
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: PlayAnimationAction
+  - hash:
+      serializedVersion: 2
+      Hash: cd0ecdca0166232906c6f2df9dddc3d3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RexWelcome
+  - hash:
+      serializedVersion: 2
+      Hash: ca7499e213dca8828e5bda84d07d9748
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: BreakBottomBlock
+  - hash:
+      serializedVersion: 2
+      Hash: 15882a52798c275361cd0a3ada984ec5
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineDollyCart
+  - hash:
+      serializedVersion: 2
+      Hash: 8ab0b189c1bd64391841bad6a3e15495
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RexSoundManager
+  - hash:
+      serializedVersion: 2
+      Hash: d6fc8d3165070298511ec776ea575626
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessResources
+  - hash:
+      serializedVersion: 2
+      Hash: ccb08e0a4cc4d4eefddc114370860033
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: PhysicsEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: RexControllerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 4cad6ed282a6d021fdffcde7d9d557e9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ReadyMessage
+  - hash:
+      serializedVersion: 2
+      Hash: 284f5d9bdaed2e2fa4d300ea0adcd718
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: PhysicsBranch
+  - hash:
+      serializedVersion: 2
+      Hash: 204ea02909ea3f738dafe3ff633d2a93
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineTrackedDolly
+  - hash:
+      serializedVersion: 2
+      Hash: 745fa702a229d37288ead3d5e17cd9bf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: TemporaryPowerup
+  - hash:
+      serializedVersion: 2
+      Hash: edef9efcd51210a44af900ccd2674ad5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: LevelScript
+  - hash:
+      serializedVersion: 2
+      Hash: 4b511b94511c5859cd7511cde5ed4d30
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: AudioAction
+  - hash:
+      serializedVersion: 2
+      Hash: 248cfe6a836591180c957b30d92fc675
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: Reflector
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachinePipeline
+  - hash:
+      serializedVersion: 2
+      Hash: fc33bda54c520a9d690493249b4e60e0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: EnableDisableObjectWorldAction
+  - hash:
+      serializedVersion: 2
+      Hash: bb9d141462709927349f6f4d6f3a73cd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: DropSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: a53651ee3996fbba20dfe0fce02f0b23
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: AutoExposure
+  - hash:
+      serializedVersion: 2
+      Hash: 51b9dd4f77b1a45e05ab16d83f46f197
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: AttackAction
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: ca7499e213dca8828e5bda84d07d9748
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: Enemy
+  - hash:
+      serializedVersion: 2
+      Hash: 8c3cb1002cc35a3051f2bc805f2f6746
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: DashState
+  - hash:
+      serializedVersion: 2
+      Hash: 694d20920c0e41f567e119f7159a3644
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachinePath
+  - hash:
+      serializedVersion: 2
+      Hash: 08a633969e687b164d2b5dab14fe1ae4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Booster
+  - hash:
+      serializedVersion: 2
+      Hash: 50c443b12ccc0b475183318b5088bcc5
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessDebug
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: UIManager
+  - hash:
+      serializedVersion: 2
+      Hash: 5f1752ed2092162f016c19510c28a8b9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 095fb11cd55c911a1b2e2a59946378af
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: StairClimbingState
+  - hash:
+      serializedVersion: 2
+      Hash: feb9a5a121d15fa3654d4e50a5233045
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 56df1fa7cea034df9863fe5a24200a32
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineTargetGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 472751ffdd5fe59f660c4fe82a0fbdc4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: AttackBase
+  - hash:
+      serializedVersion: 2
+      Hash: 35275a61dce450d06c485424be28bd5f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: DamageNumber
+  - hash:
+      serializedVersion: 2
+      Hash: c70997ab4e9e2cf38c04d1cf124692fb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Blueprint
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerSpawnPoint
+  - hash:
+      serializedVersion: 2
+      Hash: 2bb4813528d84d29c1fc9558547254ea
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: HPBranch
+  - hash:
+      serializedVersion: 2
+      Hash: e28f0e8a3b40e1da979d900b3a445de1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Demo_10_LevelScript
+  - hash:
+      serializedVersion: 2
+      Hash: 5697bda889e5f082aa4dc4a08e7757a0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: FacingTargetBranch
+  - hash:
+      serializedVersion: 2
+      Hash: 469acf8c58d9d8c8878c0ed9022cd448
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: FlutterJumpState
+  - hash:
+      serializedVersion: 2
+      Hash: 6c1939cb7188a8053bb5264ac9f39907
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: TargetFacingEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 5ad4aa237d47ac2bab17bacb672edf7a
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 7c792393fb82488bd20139dcc5ba26d8
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineTransposer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GlobalValues
+  - hash:
+      serializedVersion: 2
+      Hash: 029dea7892f4c1c556bf538a65b01354
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: RexTouchInputManager
+  - hash:
+      serializedVersion: 2
+      Hash: a66794b62dbf044668a5f102bb7908c2
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineImpulseListener
+  - hash:
+      serializedVersion: 2
+      Hash: 51dcab6ffea76a7d9e64ade625847825
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: RexAIActionEventSet
+  - hash:
+      serializedVersion: 2
+      Hash: 1765badb055562621df236f42d4d083e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: Attack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: RexAIAction
+  - hash:
+      serializedVersion: 2
+      Hash: 1b094b1668a0b46358fb5ea1957c5901
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: ObjectDisabler
+  - hash:
+      serializedVersion: 2
+      Hash: e6d75f1a9bc0c6f7085df0baa077e688
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineGroupComposer
+  - hash:
+      serializedVersion: 2
+      Hash: dbfb4270852b0008a423a7418d9de4cf
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineSameAsFollowTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 4a639215e29265dd99e4fed19e3fa9f4
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineBlendListCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 73f557f8a66bdf559879c63fe77553f2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: DistanceEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 783f593b9380cf72d0f7ebfd4a0d4bcd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: c9a8b80298a116835b51ba1cf9284367
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: b639d97cb780d0d99a2bfb3ad1935732
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineMixingCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 4b454b170e59fcbc78514867ae7a2b0a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: EnemySpawner
+  - hash:
+      serializedVersion: 2
+      Hash: 5ad4aa237d47ac2bab17bacb672edf7a
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 35a9693c388776aaf487636491a20f11
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: eeb356fa33eec10332ebc7e468fecb95
+    assemblyName: Cinemachine.dll
+    namespaceName: 
+    className: CinemachineShot
+  - hash:
+      serializedVersion: 2
+      Hash: e1300922cc039f41ab46a47f4cb05898
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: df21ffd1864551a3e43410f28754a73e
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineConfiner
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: ed85181092d6a9281f5c4470352f96a1
+    assemblyName: Bolt.Core.Editor.dll
+    namespaceName: Bolt
+    className: VariablesWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 1e3d6222ff533d213aab144eb854a53b
+    assemblyName: Cinemachine.dll
+    namespaceName: 
+    className: CinemachineTouchInputMapper
+  - hash:
+      serializedVersion: 2
+      Hash: df76de5fb2b27007d514fdb38b91cf89
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineVirtualCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: FindTargetMethods
+  - hash:
+      serializedVersion: 2
+      Hash: 1af7a02e7bcbc7adbf2063342cb6567a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: WorldAction
+  - hash:
+      serializedVersion: 2
+      Hash: c1933cc0a2f4ff6eb13333347497beb3
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 796b24ae30619962c51d5e31158f67a8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RexPalette
+  - hash:
+      serializedVersion: 2
+      Hash: bbd7d7004ad72936115ad547f510062d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: LivesPowerup
+  - hash:
+      serializedVersion: 2
+      Hash: 64b50ac48bdc7b24b966da0a3b9dd924
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: Water
+  - hash:
+      serializedVersion: 2
+      Hash: 21c80109ddc131e09c7a9f6cd50ea4dc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: WaypointsMovement
+  - hash:
+      serializedVersion: 2
+      Hash: 6225eb0973ab0af667bc5f9d1b1b18de
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineCollider
+  - hash:
+      serializedVersion: 2
+      Hash: b9f10bf56ed031a2f3e8dd080b7f01a1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ScreenFade
+  - hash:
+      serializedVersion: 2
+      Hash: bd50beb95120324d8c4e8386692b6e82
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineBlenderSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 21b74feb9c626c98b1a5bf7b070753c0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: RexObject
+  - hash:
+      serializedVersion: 2
+      Hash: d892cdfa221d396bb00827fa877b48d1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Karugamo.Audio
+    className: AudioManager
+  - hash:
+      serializedVersion: 2
+      Hash: 4f92959234805ad8a785706ea9599f4c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RexUIAnchor
+  - hash:
+      serializedVersion: 2
+      Hash: c0201dbecd85f700bcdff493a272631d
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineImpulseSource
+  - hash:
+      serializedVersion: 2
+      Hash: afc02671da4a11011e8da9ff01b1d86b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: GroundPoundState
+  - hash:
+      serializedVersion: 2
+      Hash: c90533e8ed67da500f2cc61c2baff292
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: FollowTargetMovement
+  - hash:
+      serializedVersion: 2
+      Hash: 32ca7e0cef55d43d80238b9d35931adb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: RexAIEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 3b760e6526e13f7504f59e210145899a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine.PostFX
+    className: CinemachineVolumeSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 170e59da5cb466078dd2b83cde57dd86
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: RexSettingsData
+  - hash:
+      serializedVersion: 2
+      Hash: cd0ecdca0166232906c6f2df9dddc3d3
+    assemblyName: Ludiq.Core.Editor.dll
+    namespaceName: Ludiq
+    className: FuzzyWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Ludiq.Core.Editor.dll
+    namespaceName: Ludiq
+    className: LudiqBehaviourEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Ludiq.Core.Editor.dll
+    namespaceName: Ludiq
+    className: LudiqScriptableObjectEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 02e3273cfbbe6658280ac83f81e4627f
+    assemblyName: Ludiq.Core.Editor.dll
+    namespaceName: Ludiq
+    className: WebWindow
+  - hash:
+      serializedVersion: 2
+      Hash: cd0ecdca0166232906c6f2df9dddc3d3
+    assemblyName: Ludiq.Core.Editor.dll
+    namespaceName: Ludiq
+    className: WrappedEditorWindow
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 51a3dddb410c45b592752efc6e550b2c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: LivesManager
+  - hash:
+      serializedVersion: 2
+      Hash: cd0ecdca0166232906c6f2df9dddc3d3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RexLevelEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 3ed51ab03ea2e51e1fd592defbf57851
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: CallFunctionWorldAction
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Bolt.State.Runtime.dll
+    namespaceName: Bolt
+    className: StateMachine
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Bolt.State.Runtime.dll
+    namespaceName: Bolt
+    className: StateMacro
+  - hash:
+      serializedVersion: 2
+      Hash: 88cc9df3c6fc697bfbeacd24c0d6f2d7
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: bbd7d7004ad72936115ad547f510062d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: HPPowerup
+  - hash:
+      serializedVersion: 2
+      Hash: c70cf0d06cae8072e9d58145017b3800
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: RexAIActionConditionalSet
+  - hash:
+      serializedVersion: 2
+      Hash: ab0f8ba4f734ec5396f4145e8d69ae8b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnergyBar
+  - hash:
+      serializedVersion: 2
+      Hash: 6ff1c52123c50b3d73f35cd0e2e65dfd
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineSmoothPath
+  - hash:
+      serializedVersion: 2
+      Hash: bbd7d7004ad72936115ad547f510062d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: EnergyPowerup
+  - hash:
+      serializedVersion: 2
+      Hash: b2b81c398a49cd7756ddd3b6476a0347
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: WorldActionSequenceSet
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineHardLookAt
+  - hash:
+      serializedVersion: 2
+      Hash: beb96605a6215f43553425de97282318
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: WeaponUpgradePowerup
+  - hash:
+      serializedVersion: 2
+      Hash: 8accde6cba3f84b021cfbbfa761a4e92
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: BounceState
+  - hash:
+      serializedVersion: 2
+      Hash: 41b2b4688e02f66559f08f8143433832
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: FaceTargetAction
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RaycastHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Bolt.Flow.Editor.dll
+    namespaceName: Bolt
+    className: GlobalMessageListenerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Bolt.Flow.Editor.dll
+    namespaceName: Bolt
+    className: MessageListenerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: HPHelpers
+  - hash:
+      serializedVersion: 2
+      Hash: f10d128b935bc31c94f5e9dabe31fa03
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RexSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 79b115ef3a8d2a8dee47239ff51aea6f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: PatrolMovement
+  - hash:
+      serializedVersion: 2
+      Hash: 8c85250231236e0ba37fd04f3b5a64a2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: RandomBranch
+  - hash:
+      serializedVersion: 2
+      Hash: 98dbbc67f680cb6b9c6dd36bb672d438
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: DialoguePopup
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 3b80c5e8f72cb1bd2b50b53131f4c69c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: PushingState
+  - hash:
+      serializedVersion: 2
+      Hash: f4a40b4aebb075cee2a97ab8062160fb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: FallingPlatform
+  - hash:
+      serializedVersion: 2
+      Hash: d791aa6007fa3640be1164ea75bb087d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 098141705be1ee5e23947c2bc92fe08b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: ToggleAttackWorldAction
+  - hash:
+      serializedVersion: 2
+      Hash: af60eb63b75ee47681ceb48baf7b2621
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: Shield
+  - hash:
+      serializedVersion: 2
+      Hash: eb26abc2928558c7f8ef4dca698a8192
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: Checkpoint
+  - hash:
+      serializedVersion: 2
+      Hash: 584ebedf80955e8eb27fb4d460cd2b76
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: DamageNumberManager
+  - hash:
+      serializedVersion: 2
+      Hash: 821f638897eef2181af18310b4902ba6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: Projectile
+  - hash:
+      serializedVersion: 2
+      Hash: b4595fa9657647ccef321eb913239e25
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: GravityChanger
+  - hash:
+      serializedVersion: 2
+      Hash: 0122a0c2c5171c0d0138c16e6e8bfb83
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: WeaponEnergyPowerup
+  - hash:
+      serializedVersion: 2
+      Hash: 3acb24208bbeb3a14cb9977746d34bd2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: BreakingPlatform
+  - hash:
+      serializedVersion: 2
+      Hash: d5630f96bd5a6a6eed7e1754c3fb8703
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessVolume
+  - hash:
+      serializedVersion: 2
+      Hash: 306aa520594b812f125e6f356328ff05
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: RexAISequence
+  - hash:
+      serializedVersion: 2
+      Hash: 9f9d432469aeea4b00930108ed6fc608
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: TimerManager
+  - hash:
+      serializedVersion: 2
+      Hash: d0987ce3e9092dbe0fa30d73f333fffa
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Grain
+  - hash:
+      serializedVersion: 2
+      Hash: df434544c9f7b33d1cc7e635b180d279
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 30cf345c10292d1bd91796edf75fbe67
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: AttackSet
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: ac6acd886c54c48c599ab5fed5781ea7
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: AmbientOcclusion
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: RexActorEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 039f68572053db916b60d6661a525531
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: MovingPlatform
+  - hash:
+      serializedVersion: 2
+      Hash: 9432a07e8c5306b4d4e3761475a114f7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: CrouchState
+  - hash:
+      serializedVersion: 2
+      Hash: d54efe0fc38f896252e46eab5b72c2fd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: PushableBlock
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: ElseBranch
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: Setup
+  - hash:
+      serializedVersion: 2
+      Hash: fa8d4b643ec0de4f34e14d5600894803
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: SetRexControllerWorldAction
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachinePixelPerfect
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: edef9efcd51210a44af900ccd2674ad5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameOverScript
+  - hash:
+      serializedVersion: 2
+      Hash: a63fc1a3b035e5a0b5839cd7f7b3086e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 8649814970b42d345b89944b862453cc
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 94d9114cbe079a332212b449fa463334
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: RexState
+  - hash:
+      serializedVersion: 2
+      Hash: 0132e4911b46459f5ce28a02680ffb9e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: SwapPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: bd74a389b89478a5a9f10d5e3809b4bc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: LandingState
+  - hash:
+      serializedVersion: 2
+      Hash: 1351a1bf2c4086539cf0063006375478
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineBrain
+  - hash:
+      serializedVersion: 2
+      Hash: 15a660b3e70828e99e0e66f596ed1a5a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: AbilityToggleButton
+  - hash:
+      serializedVersion: 2
+      Hash: a3613a5f4fc7235738cca83e55bf0f3a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: SceneBoundary
+  - hash:
+      serializedVersion: 2
+      Hash: 4ef0f7d42cdb13479386e1f049c315aa
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 2aeeec1b1a144c469cd2d37776bc2315
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 4ec396cc1e284c885de5b5ff6308d442
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Jitter
+  - hash:
+      serializedVersion: 2
+      Hash: dbfb4270852b0008a423a7418d9de4cf
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineHardLockToTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 6d6998a4fd486a5ee619a64c2538913c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: ChangeAIRoutineAction
+  - hash:
+      serializedVersion: 2
+      Hash: d0f032c7ae59650bd27eb7345ee8f0c5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: WorldActionSequence
+  - hash:
+      serializedVersion: 2
+      Hash: 42123b8af47b7d35fa24bab3934bf40c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: InvincibilityPowerup
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: b5c3dbcb94925c8b595ad16a62b44788
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineBasicMultiChannelPerlin
+  - hash:
+      serializedVersion: 2
+      Hash: aa88ae22474df55295327e4ee99e5a24
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: c8b5aecbf9c34312d6703764c0eebabf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: SceneLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 97dae5d891e2289e2006f990a6ed3862
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: ChangeMovementAction
+  - hash:
+      serializedVersion: 2
+      Hash: 2792936179724025482dc04d68a47ca7
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineClearShot
+  - hash:
+      serializedVersion: 2
+      Hash: 7072231382eb3c4871b3dd75ad0227e1
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 8cc2c18f648cb618facf47fe1de4a94d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: SetAIRoutineWorldAction
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Sample
+  - hash:
+      serializedVersion: 2
+      Hash: 1b6e4d08d570a7c3ba003a460f9330a9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: JumpState
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 592bcf12cdadba3359cac0564e033180
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: DamagedEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RexEngine
+    className: RexAIBranch
+  platform: 5
+  scenePathNames:
+  - Assets/Scenes/Trial.unity
+  - Assets/Scenes/Boss1.unity
+  playerPath: C:/Users/Ian/Downloads/Miss Nun/Miss Nun's Trip.exe

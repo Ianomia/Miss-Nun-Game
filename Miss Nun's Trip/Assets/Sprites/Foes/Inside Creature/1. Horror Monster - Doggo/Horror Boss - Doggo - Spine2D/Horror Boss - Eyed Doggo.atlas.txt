@@ -1,0 +1,181 @@
+
+Horror Boss - Eyed Doggo.png
+size: 8152,2560
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 2, 134
+  size: 3863, 2422
+  orig: 3863, 2422
+  offset: 0, 0
+  index: -1
+Eye_01
+  rotate: true
+  xy: 7469, 88
+  size: 241, 238
+  orig: 241, 238
+  offset: 0, 0
+  index: -1
+Eye_02
+  rotate: true
+  xy: 7469, 331
+  size: 297, 267
+  orig: 297, 267
+  offset: 0, 0
+  index: -1
+Eye_03
+  rotate: false
+  xy: 3867, 80
+  size: 502, 511
+  orig: 502, 511
+  offset: 0, 0
+  index: -1
+Eye_04
+  rotate: true
+  xy: 5039, 228
+  size: 363, 359
+  orig: 363, 359
+  offset: 0, 0
+  index: -1
+Eye_05
+  rotate: true
+  xy: 5400, 290
+  size: 301, 283
+  orig: 301, 283
+  offset: 0, 0
+  index: -1
+Eye_06
+  rotate: true
+  xy: 4919, 6
+  size: 180, 174
+  orig: 180, 174
+  offset: 0, 0
+  index: -1
+Eye_07
+  rotate: false
+  xy: 7886, 617
+  size: 255, 247
+  orig: 255, 247
+  offset: 0, 0
+  index: -1
+Eye_08
+  rotate: true
+  xy: 7884, 375
+  size: 240, 255
+  orig: 240, 255
+  offset: 0, 0
+  index: -1
+Eye_09
+  rotate: false
+  xy: 2, 16
+  size: 95, 116
+  orig: 95, 116
+  offset: 0, 0
+  index: -1
+Eye_10
+  rotate: false
+  xy: 7532, 665
+  size: 179, 199
+  orig: 179, 199
+  offset: 0, 0
+  index: -1
+Eye_11
+  rotate: true
+  xy: 5095, 2
+  size: 224, 218
+  orig: 224, 218
+  offset: 0, 0
+  index: -1
+Eye_12
+  rotate: false
+  xy: 7738, 386
+  size: 141, 139
+  orig: 141, 139
+  offset: 0, 0
+  index: -1
+Eye_13
+  rotate: false
+  xy: 5315, 26
+  size: 158, 200
+  orig: 158, 200
+  offset: 0, 0
+  index: -1
+Eye_14
+  rotate: false
+  xy: 5475, 2
+  size: 294, 286
+  orig: 294, 286
+  offset: 0, 0
+  index: -1
+Eye_15
+  rotate: true
+  xy: 7738, 527
+  size: 138, 144
+  orig: 138, 144
+  offset: 0, 0
+  index: -1
+Eye_16
+  rotate: true
+  xy: 7713, 667
+  size: 197, 171
+  orig: 197, 171
+  offset: 0, 0
+  index: -1
+Eye_17
+  rotate: false
+  xy: 4734, 2
+  size: 183, 184
+  orig: 183, 184
+  offset: 0, 0
+  index: -1
+Eye_18
+  rotate: true
+  xy: 7709, 168
+  size: 161, 158
+  orig: 161, 158
+  offset: 0, 0
+  index: -1
+Jaw
+  rotate: true
+  xy: 4371, 102
+  size: 489, 361
+  orig: 489, 361
+  offset: 0, 0
+  index: -1
+Jaw_inside
+  rotate: true
+  xy: 4734, 188
+  size: 403, 303
+  orig: 403, 303
+  offset: 0, 0
+  index: -1
+Leg_back_left
+  rotate: false
+  xy: 7532, 866
+  size: 617, 1690
+  orig: 617, 1690
+  offset: 0, 0
+  index: -1
+Leg_back_right
+  rotate: true
+  xy: 5771, 4
+  size: 624, 1696
+  orig: 624, 1696
+  offset: 0, 0
+  index: -1
+Leg_front_left
+  rotate: false
+  xy: 5632, 630
+  size: 1898, 1926
+  orig: 1898, 1926
+  offset: 0, 0
+  index: -1
+Leg_front_right
+  rotate: true
+  xy: 3867, 593
+  size: 1963, 1763
+  orig: 1963, 1763
+  offset: 0, 0
+  index: -1
